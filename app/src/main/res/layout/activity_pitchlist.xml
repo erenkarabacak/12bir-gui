@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pitchlist">
+
+    <ImageView
+        android:id="@+id/pitch4"
+
+        android:layout_width="199dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/imageview"
+        app:layout_constraintLeft_toLeftOf="@+id/dikey"
+        app:layout_constraintLeft_toRightOf="@+id/dikey"
+        app:layout_constraintTop_toTopOf="@+id/yatay"
+        app:srcCompat="@drawable/halisaha" />
+
+    <TextView
+        android:id="@+id/pitch3name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="1"
+        android:text="Özbey Halı Saha"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@+id/dikey"
+        app:layout_constraintTop_toBottomOf="@+id/pitch4" />
+
+    <TextView
+        android:id="@+id/pitchdescription6"
+        android:layout_width="178dp"
+        android:layout_height="55dp"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_row="2"
+        android:text="TeLorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.xtView"
+        android:textSize="5sp"
+        app:layout_constraintLeft_toLeftOf="@+id/dikey"
+        app:layout_constraintTop_toBottomOf="@+id/pitch3name2" />
+
+    <Button
+        android:id="@+id/incele6"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:text="İncele"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="@+id/dikey"
+        app:layout_constraintTop_toBottomOf="@+id/pitchdescription6" />
+
+    <Button
+        android:id="@+id/rezervasyonyap6"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:text="Rezervasyon Yap"
+        android:textSize="6sp"
+        app:layout_constraintLeft_toRightOf="@+id/incele6"
+        app:layout_constraintTop_toBottomOf="@+id/pitchdescription6" />
+
+    <RatingBar
+        android:id="@+id/ratingBar9"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="1"
+        android:rating=".5"
+
+        app:layout_constraintLeft_toRightOf="@+id/pitch3name2"
+        app:layout_constraintTop_toBottomOf="@+id/pitch4" />
+
+    <ImageView
+        android:id="@+id/pitch3"
+        android:layout_width="199dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/imageview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/dikey"
+        app:layout_constraintTop_toTopOf="@+id/yatay"
+        app:srcCompat="@drawable/halisaha" />
+
+    <TextView
+        android:id="@+id/pitch3name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="1"
+        android:text="Özbey Halı Saha"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pitch3" />
+
+    <TextView
+        android:id="@+id/pitchdescription3"
+        android:layout_width="178dp"
+        android:layout_height="55dp"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_row="2"
+        android:text="TeLorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.xtView"
+        android:textSize="5sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pitch3name" />
+
+    <Button
+        android:id="@+id/incele3"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:text="İncele"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pitchdescription3" />
+
+    <Button
+        android:id="@+id/rezervasyonyap3"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:text="Rezervasyon Yap"
+        android:textSize="6sp"
+        app:layout_constraintLeft_toRightOf="@+id/incele3"
+        app:layout_constraintTop_toBottomOf="@+id/pitchdescription3" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="1"
+        android:rating="3.5"
+
+        app:layout_constraintLeft_toRightOf="@+id/pitch3name"
+        app:layout_constraintTop_toBottomOf="@+id/pitch3" />
+
+    <TextView
+        android:id="@+id/pitch2name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="1"
+        android:text="Ula Halı Saha"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@+id/dikey"
+        app:layout_constraintTop_toBottomOf="@+id/pitch1" />
+
+    <ImageView
+        android:id="@+id/pitch2"
+        android:layout_width="199dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/imageview"
+        app:layout_constraintLeft_toLeftOf="@+id/dikey"
+        app:layout_constraintLeft_toRightOf="@+id/dikey"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/halisaha" />
+
+    <ImageView
+        android:id="@+id/pitch1"
+        android:layout_width="199dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/imageview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/dikey"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/halisaha" />
+
+    <TextView
+        android:id="@+id/pitch1name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="1"
+        android:text="Saray Halı Saha"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pitch1" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="1"
+        android:rating="3"
+
+        app:layout_constraintLeft_toRightOf="@+id/pitch1name"
+        app:layout_constraintTop_toBottomOf="@+id/pitch1" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="1"
+        android:rating="4.5"
+
+        app:layout_constraintLeft_toRightOf="@+id/pitch2name"
+        app:layout_constraintTop_toBottomOf="@+id/pitch2" />
+
+    <TextView
+        android:id="@+id/pitchdescription"
+        android:layout_width="178dp"
+        android:layout_height="55dp"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_row="2"
+        android:text="TeLorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.xtView"
+        android:textSize="5sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pitch1name" />
+
+    <TextView
+        android:id="@+id/pitchdescription2"
+        android:layout_width="178dp"
+        android:layout_height="55dp"
+        android:layout_column="0"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_row="2"
+        android:text="TeLorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.xtView"
+        android:textSize="5sp"
+        app:layout_constraintLeft_toRightOf="@+id/dikey"
+        app:layout_constraintTop_toBottomOf="@+id/pitch2name" />
+
+    <Button
+        android:id="@+id/incele"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:text="İncele"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pitchdescription" />
+
+    <Button
+        android:id="@+id/incele4"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="İncele"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/dikey"
+        app:layout_constraintTop_toBottomOf="@+id/pitchdescription" />
+
+    <Button
+        android:id="@+id/rezervasyonyap"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:text="Rezervasyon Yap"
+        android:textSize="6sp"
+        app:layout_constraintLeft_toRightOf="@+id/incele"
+        app:layout_constraintTop_toBottomOf="@+id/pitchdescription" />
+
+    <Button
+        android:id="@+id/rezervasyonyap4"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:text="Rezervasyon Yap"
+        android:textSize="6sp"
+        app:layout_constraintLeft_toRightOf="@+id/incele4"
+        app:layout_constraintTop_toBottomOf="@+id/pitchdescription" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/dikey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/yatay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="315dp" />
+
+</android.support.constraint.ConstraintLayout>

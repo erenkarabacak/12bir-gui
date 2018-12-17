@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/bgvideoView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/top_guid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="418dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/left_guid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="64dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/right_guid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="333dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edit_text"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textColorLink="@android:color/background_dark"
+        app:layout_constraintLeft_toRightOf="@+id/left_guid"
+        app:layout_constraintRight_toLeftOf="@+id/right_guid"
+        app:layout_constraintTop_toBottomOf="@+id/top_guid" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounded_edit_text"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textColorLink="@android:color/background_dark"
+        app:layout_constraintLeft_toRightOf="@+id/left_guid"
+        app:layout_constraintRight_toLeftOf="@+id/right_guid"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <Button
+        android:id="@+id/Giris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Giriş Yap"
+        app:layout_constraintLeft_toRightOf="@+id/left_guid"
+        app:layout_constraintTop_toBottomOf="@+id/sifrehatirlat" />
+
+    <Button
+        android:id="@+id/uye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üye Ol"
+        app:layout_constraintLeft_toRightOf="@+id/Giris"
+        app:layout_constraintRight_toLeftOf="@+id/right_guid"
+        app:layout_constraintTop_toBottomOf="@+id/sifrehatirlat" />
+
+    <TextView
+        android:id="@+id/sifrehatirlat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifrenizi mi unuttunuz?"
+        android:textColor="#FFFFFF"
+        app:layout_constraintLeft_toRightOf="@+id/left_guid"
+        app:layout_constraintRight_toLeftOf="@+id/right_guid"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+</android.support.constraint.ConstraintLayout>
